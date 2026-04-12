@@ -92,9 +92,12 @@ app/backend/
 └── main.py                   # FastAPI application entry point
 ```
 
+## Notes (Personal)
+
+> I'm using this fork primarily to experiment with different LLM backends (Groq/Ollama) and to explore adding a backtesting dashboard. If you're also learning from this project, the `/docs` endpoint is a great starting point to understand the API structure before diving into the code.
+
 ## Disclaimer
 
 This project is for **educational and research purposes only**.
 
-- Not intended for real trading or investment
-- No warranties
+- Not 
