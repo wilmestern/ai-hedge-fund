@@ -104,9 +104,11 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data (required)
+# For getting financial data (required for stock analysis)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
-# Note: At minimum you need one LLM provider key and the financial data key.
-# I personally use OPENAI_API_KEY + FINANCIAL_DATASETS_API_KEY to get started.
+# Optional: For running LLMs hosted by anthropic (claude-3-5-sonnet, etc.)
+ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
+
+> **Note (personal):** I primarily use `OPENAI_API_KEY` + `FINANCIAL_DATASETS_API_KEY` for local testing. The Groq and Anthropic keys are optional unless you want to experiment with those model providers.
