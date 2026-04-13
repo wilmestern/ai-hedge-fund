@@ -29,6 +29,11 @@ This system employs several agents working together:
 Note: the system does not actually make any trades.
 
 > **Personal note:** I'm using this project to study how different investing philosophies translate into algorithmic decision-making. My primary interest is comparing the value-oriented agents (Graham, Munger, Buffett) against the growth-oriented ones (Wood, Fisher) across different market conditions. I'm particularly focused on how these agents behave during high-volatility periods — running backtests against 2020 (COVID crash) and 2022 (rate hike cycle) data.
+>
+> **Backtest periods I'm tracking:**
+> - 2020-01-01 to 2020-12-31 (COVID crash & recovery)
+> - 2022-01-01 to 2022-12-31 (rate hike cycle / bear market)
+> - 2023-01-01 to 2023-12-31 (recovery baseline)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -39,7 +44,4 @@ This project is for **educational and research purposes only**.
 - Not intended for real trading or investment
 - No investment advice or guarantees provided
 - Creator assumes no liability for financial losses
-- Consult a financial advisor for investment decisions
-- Past performance does not indicate future results
-
-By using this software, you agree to use it solely for learni
+- Cons
