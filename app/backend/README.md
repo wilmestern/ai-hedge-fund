@@ -94,8 +94,6 @@ app/backend/
 
 ## Notes (Personal)
 
-> I'm using this fork primarily to experiment with different LLM
-> providers and agent configurations. My main areas of interest:
-> - Swapping in local models via Ollama to reduce API costs
-> - Comparing signal quality between gpt-4o and deepseek-r1
-> - Eventually hooking this up to paper trading via Alpaca
+> I'm using this fork primarily to experiment with different LLMs and compare their trading signals.
+> So far, deepseek-r1 via Groq has been the most interesting to test against gpt-4o.
+> TODO: add a simple logging mechanism to save agent decisions to a local SQLite db for comparison.
