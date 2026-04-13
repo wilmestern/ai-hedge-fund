@@ -94,10 +94,8 @@ app/backend/
 
 ## Notes (Personal)
 
-> I'm using this fork primarily to experiment with different LLM backends (Groq/Ollama) and to explore adding a backtesting dashboard. If you're also learning from this project, the `/docs` endpoint is a great starting point to understand the API structure before diving into the code.
-
-## Disclaimer
-
-This project is for **educational and research purposes only**.
-
-- Not 
+> I'm using this fork primarily to experiment with different LLM
+> providers and agent configurations. My main areas of interest:
+> - Swapping in local models via Ollama to reduce API costs
+> - Comparing signal quality between gpt-4o and deepseek-r1
+> - Eventually hooking this up to paper trading via Alpaca
