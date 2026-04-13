@@ -34,14 +34,11 @@ Note: the system does not actually make any trades.
 > - 2020-01-01 to 2020-12-31 (COVID crash & recovery)
 > - 2022-01-01 to 2022-12-31 (rate hike cycle / bear market)
 > - 2023-01-01 to 2023-12-31 (recovery baseline)
+>
+> **Agents I'm focusing on (primary watchlist):** Graham, Munger, Buffett, Fisher, Wood — I've been running these five in isolation to compare signal agreement/disagreement before adding the full ensemble. Taleb agent is interesting as a hedge signal cross-check.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
 ## Disclaimer
 
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No investment advice or guarantees provided
-- Creator assumes no liability for financial losses
-- Cons
+This project
