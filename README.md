@@ -35,10 +35,6 @@ Note: the system does not actually make any trades.
 > - 2022-01-01 to 2022-12-31 (rate hike cycle / bear market)
 > - 2023-01-01 to 2023-12-31 (recovery baseline)
 >
-> **Agents I'm focusing on (primary watchlist):** Graham, Munger, Buffett, Fisher, Wood — I've been running these five in isolation to compare signal agreement/disagreement before adding the full ensemble. Taleb agent is interesting as a hedge signal cross-check.
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
-
-## Disclaimer
-
-This project
+> **Agents I'm focusing on (primary watchlist):** Graham, Munger, Buffett, Fisher, Wood — I've been running these five in isolation to compare signal agreement/disagreement rates. Early finding: Graham and Munger agree ~70% of the time, but both diverge sharply from Wood during rate-sensitive periods, which is expected but interesting to see quantified.
+>
+> **Tickers I've been using for testing:** AAPL, MSFT, NVDA, BRK-B, ARKK — chosen to give a mix of value, growth, and ETF exposure across the agent philosophies.
