@@ -94,6 +94,6 @@ app/backend/
 
 ## Notes (Personal)
 
-> I'm using this fork primarily to experiment with different LLMs and compare their trading signals.
-> So far, deepseek-r1 via Groq has been the most interesting to test against gpt-4o.
-> TODO: add a simple logging mechanism to save agent decisions to a local SQLite db for comparison.
+> I'm using this fork primarily to experiment with different LLMs
+
+> **Tip:** If port 8001 is also taken on your machine, you can swap to 8002 — just remember to update any frontend `.env` that points to the backend URL.
