@@ -44,6 +44,10 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
+# For running LLMs hosted by Anthropic (claude-3-5-sonnet, claude-3-opus, etc.)
+# Get your key at https://console.anthropic.com/
+ANTHROPIC_API_KEY=your-anthropic-api-key
+
 # For getting financial data to power the hedge fund
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
@@ -95,5 +99,3 @@ app/backend/
 ## Notes (Personal)
 
 > I'm using this fork primarily to experiment with different LLMs
-
-> **Tip:** If port 8001 is also taken on your machine, you can swap to 8002 — just remember to update any frontend `.env` that points to the backend URL.
