@@ -72,6 +72,8 @@ The API will be available at:
 - API Documentation: http://localhost:8001/docs
 - Interactive Docs (ReDoc): http://localhost:8001/redoc
 
+> **Note (personal):** If port 8001 is also taken on your machine, you can swap it for `--port 8002` without any other changes — the port is not hardcoded elsewhere in the backend.
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -92,10 +94,5 @@ app/backend/
 ├── services/                 # Business logic
 │   ├── graph.py              # Agent graph functionality
 │   └── portfolio.py          # Portfolio management
-├── __init__.py               # Package initialization
-└── main.py                   # FastAPI application entry point
+├── __init__.py               # Package
 ```
-
-## Notes (Personal)
-
-> I'm using this fork primarily to experiment with different LLMs
